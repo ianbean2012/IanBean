@@ -1,0 +1,141 @@
+p
+{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color:midnightblue;
+}
+.p2
+{
+    font-size: 16px;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    color:midnightblue;
+}
+.p3
+{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color:midnightblue;
+}
+.mapimg
+{
+    border: solid maroon;
+    border-radius: 75px;
+    background-color: cadetblue;
+    padding: 10px;
+}
+.flagimg
+{
+    border: solid dodgerblue;
+    border-radius: 10000px;
+    padding:20px;
+}
+.clickme
+{
+    background-color:rgb(43, 43, 205);
+    color:floralwhite;
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 50px;
+    border-radius: 50px;
+    transition: background-color 1s;
+}
+.clickme2
+{
+    background-color:rgb(43, 43, 205);
+    color:floralwhite;
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 50px;
+    border-radius: 50px;
+    transition: background-color 1s;
+}
+.clickme:hover 
+{
+    background-color:darksalmon;
+    cursor:pointer;
+    box-shadow: 4px 4px 4px 4px rgba(89, 84, 84);
+    transition: box-shadow 1s;
+}
+.clickme2:hover 
+{
+    background-color:olivedrab;
+    cursor:pointer;
+    box-shadow:4px 4px 4px 4px rgba(89, 84, 84);
+}
+body
+{
+    background-color:moccasin;
+}
+table
+{
+    border: solid midnightblue;
+    padding: 8px;
+    background-color:darkseagreen;
+}
+.th1
+{
+    border: solid darkblue;
+}
+.th2
+{
+    border: solid gainsboro;
+}
+.th3
+{
+    border: solid brown;
+}
+.tr1
+{
+    border: solid darkblue;
+}
+.tr2
+{
+    border: solid gainsboro;
+}
+.tr3
+{
+    border: solid brown;
+}
+.boldtext
+{
+    font-weight: 700;
+}
+.list1
+{
+    color: midnightblue;
+}
+.list2
+{
+    color: midnightblue;
+}
+header ul
+{
+    float: right;
+    list-style: none; 
+    font-size:20px;
+    color:darkred;
+}
+header li
+{
+    display: inline-block;
+    margin: 0px 18px;
+    font-family: fantasy;
+    border: solid; 
+    color:forestgreen;
+    padding: 8px;
+    border-radius: 25px;
+    background-color:lightgreen;
+}
+header a
+{
+    text-decoration: none;
+}
+#active
+{
+    background-color:burlywood;
+    color: forestgreen;
+    font-weight: bold;
+}

@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background:linear-gradient(rgba(205, 205, 205,0.6), rgba(87, 87, 87,0.6)),url(../images/glitter_bokeh.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: bottom; 
+    font-family:"Verdana, Geneva, Tahoma, sans-serif";
+    min-height: 100vh;
+}
+header{
+    padding:10px;
+    border-radius:200;
+    position: fixed;
+    background-color:rgba(0,0,0,0.5);
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    backdrop-filter:blur(10px)
+}
+header ul{
+    float: right;
+    list-style: none;
+    font-size: 20px;
+    color: darkred;
+}
+header li{
+    display: inline-block;
+    margin: 8px 18px;
+    font-family: fantasy;
+    
+}
+header img{
+    width: 80px;
+    border: solid rgb(107, 171, 255);
+    border-radius: 38px
+}
+header a{
+    text-decoration: none;
+    padding: 10px;
+    border: solid; 
+    color:rgb(153, 185, 230);
+    border-radius: 38px;
+    background-color:rgb(14, 34, 137);
+}
+header a:hover{
+    background-color:rgb(107, 171, 255);
+    color:rgb(14, 34, 137);
+    transition: 1s;
+    border-radius: 38px;
+}
+main{
+    padding:120px 0px;
+}
+.middlecenter{
+    text-align:center;
+}
+footer{
+    position:fixed;
+    bottom: 0px;
+    text-align: center;
+    background-color:rgba(100, 100, 100);
+    padding-left:28px;
+    left: 8px;
+    right: 8px;
+}
+.gridview{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px
+}
+.griditem{
+    background-color:cadetblue;
+    margin: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+.button1{
+    border-radius: 75px;
+    background-color:rgb(161, 98, 30);
+    color:rgb(238, 174, 71);
+    padding: 10px;
+}
+.button1:hover{
+    background-color: rgb(238, 174, 71);
+    color: rgb(161, 98, 30);
+    transition: 1s;
+}
+.button2{
+    border-radius: 75px;
+    background-color:rgb(37, 45, 132);
+    color:white;
+    padding: 10px;
+}
+.button1:hover{
+    background-color: white;
+    color: rgb(202, 127, 48);
+    transition: 1s;
+}
+.img1{
+    display: inline-block;
+}
